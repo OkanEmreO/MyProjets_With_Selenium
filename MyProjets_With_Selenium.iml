@@ -12,5 +12,6 @@
     <orderEntry type="library" name="commons-io-2.8.0" level="project" />
     <orderEntry type="library" name="io.github.bonigarcia.webdrivermanager" level="project" />
     <orderEntry type="library" name="slf4j.simple" level="project" />
+    <orderEntry type="library" name="io.cucumber.java" level="project" />
   </component>
 </module>
