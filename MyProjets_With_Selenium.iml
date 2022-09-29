@@ -13,5 +13,7 @@
     <orderEntry type="library" name="io.github.bonigarcia.webdrivermanager" level="project" />
     <orderEntry type="library" name="slf4j.simple" level="project" />
     <orderEntry type="library" name="io.cucumber.java" level="project" />
+    <orderEntry type="library" name="testng" level="project" />
+    <orderEntry type="library" name="io.cucumber.testng" level="project" />
   </component>
 </module>

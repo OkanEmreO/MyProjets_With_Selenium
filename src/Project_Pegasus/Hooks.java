@@ -1,10 +1,10 @@
-package Utilities;
+package Project_Pegasus;
 
 
+import Utilities.GWD;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-
 
 
 public class Hooks {
@@ -13,6 +13,8 @@ public class Hooks {
     public void before()
     {
         System.out.println("Senaryo başladı");
+
+
     }
 
     @After
