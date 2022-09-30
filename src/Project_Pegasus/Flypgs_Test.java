@@ -31,7 +31,7 @@ public class Flypgs_Test extends GWD {
         fly.findAndSend("sehirsec2", "Abudhabi");
         fly.findAndClick("abudhabi");
         fly.findAndClick("calendar");
-        fly.findAndClick("calendarnext");
+//        fly.findAndClick("calendarnext");
         fly.findAndClick("sixthday");
 
         fly.findAndClick("searchbutton");
@@ -115,6 +115,13 @@ public class Flypgs_Test extends GWD {
         fly.findAndClick("devamet2");
 
         fly.findAndClick("ödemeYap");
+
+        fly.findAndContainsText("odemeAlani","Ödeme Şeklini Seçiniz");
+
+        System.out.println("Proje Başarıyla Tamamlandı...");
+
+        GWD.quitDriver();
+
 
     }
 

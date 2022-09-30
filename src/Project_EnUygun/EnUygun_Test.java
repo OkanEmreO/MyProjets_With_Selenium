@@ -2,15 +2,21 @@ package Project_EnUygun;
 
 import Page.EnUygun;
 import Utilities.GWD;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import org.openqa.selenium.support.ui.Select;
 
+
 public class EnUygun_Test extends GWD {
+
 
     public static void main(String[] args) throws InterruptedException {
 
         EnUygun enUygun = new EnUygun();
 
-
+        System.out.println("Senaryo başladı");
+       
         GWD.getDriver().get("https://www.enuygun.com/");
 
         GWD.getDriver().manage().window().maximize();
@@ -39,15 +45,15 @@ public class EnUygun_Test extends GWD {
         Bekleme(1);
         enUygun.findAndClick("onaylaveDevamEt");
         Bekleme(1);
-        enUygun.findAndSend("email", "mymail@gmail.com");
+        enUygun.findAndSend("email", "MC_Lucas@gmail.com");
         Bekleme(1);
         enUygun.findAndSend("phoneNumber", "5555555555");
         Bekleme(1);
         enUygun.findAndClick("rizaMetni");
         Bekleme(1);
-        enUygun.findAndSend("name", "sdfdsf");
+        enUygun.findAndSend("name", "Lucas");
         Bekleme(1);
-        enUygun.findAndSend("lastname", "dsfdsf");
+        enUygun.findAndSend("lastname", "Mcgrotisch");
         Bekleme(1);
         enUygun.findAndClick("yabanciVatandas");
         Bekleme(1);
@@ -67,5 +73,12 @@ public class EnUygun_Test extends GWD {
 
         enUygun.findAndContainsText("hataMesaji","Lütfen geçerli bir kart girin.");
 
+        System.out.println("**************************************************");
+
+        System.out.println("Test Passed");
+
+        GWD.quitDriver();
+
     }
+
 }
