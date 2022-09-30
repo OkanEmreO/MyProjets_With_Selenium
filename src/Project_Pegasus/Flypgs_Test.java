@@ -6,8 +6,6 @@ import org.openqa.selenium.*;
 
 public class Flypgs_Test extends GWD {
 
-
-
     public static void main(String[] args) throws InterruptedException {
 
         Flypgs fly = new Flypgs();
@@ -118,7 +116,7 @@ public class Flypgs_Test extends GWD {
 
         fly.findAndContainsText("odemeAlani","Ödeme Şeklini Seçiniz");
 
-        System.out.println("Proje Başarıyla Tamamlandı...");
+        System.out.println("Test Passed");
 
         GWD.quitDriver();
 

@@ -95,6 +95,7 @@ public class A101Test extends GWD {
 
         a101.findAndContainsText("kartHatasi", "Kart bilgilerinizi kontrol ediniz.");
 
+        GWD.quitDriver();
 
     }
 }
