@@ -57,8 +57,8 @@ public class A101Test extends GWD {
         a101.findAndClick("yeniAdres");
 
         a101.findAndSend("adresBasligi", "Ev Adresi");
-        a101.findAndSend("firstName", "fgh");
-        a101.findAndSend("lastName", "gfhfgh");
+        a101.findAndSend("firstName", "Aren");
+        a101.findAndSend("lastName", "Yıldız");
         a101.findAndSend("phoneNumber", "5555555555");
         Bekleme(1);
         a101.findAndClick("il");
