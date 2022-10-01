@@ -93,7 +93,7 @@ public class EnUygun extends Parent{
     private WebElement odemeYap;
 
     @FindBy(xpath =  "//span[text()='Lütfen geçerli bir kart girin.']")
-    private WebElement hataMesaji;
+    public WebElement hataMesaji;
 
 
 //    @FindBy(id = "passenger0_lastname")
