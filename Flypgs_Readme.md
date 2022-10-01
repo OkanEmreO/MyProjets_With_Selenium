@@ -10,6 +10,11 @@ Acilan sayfada secilen bilet icin kisisel bilgiler girilecek,
 En son adımda odeme kismina gelecek ve gercek olmayan bir odeme islemi deneyecek
 
 
+Hangi Teknolojiler Kullanıldı
+
+- Bu proje için java ve intellij kullanıldı.
+- Selenium Test Aracı olarak kullanıldı.
+
 ![img.png](img.png)
 
 ![img_1.png](img_1.png)

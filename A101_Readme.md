@@ -13,7 +13,11 @@ A101 Selenium test otomasyon projesidir. A101 ürün arama, seçme,satın alma,f
 - Mail ekranı gelir.
 - Sonrasında adres ekranı gelir. Adres oluştur dedikten sonra ödeme ekranı gelir.
 - Siparişi tamamla butonuna tıklayarak, ödeme ekranına gidildiği ,doğru ekrana yönlendiklerini kontrol edecekler.
+  
+Hangi Teknolojiler Kullanıldı
 
+- Bu proje için java ve intellij kullanıldı.
+- Selenium Test Aracı olarak kullanıldı.
 
 ![img_11.png](img_11.png)
 
