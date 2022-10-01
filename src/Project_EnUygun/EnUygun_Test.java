@@ -95,14 +95,8 @@ public class EnUygun_Test extends GWD {
         System.out.println("Ödeme butonuna Tıklandı");
         enUygun.findAndClick("odemeYap");
 
+        enUygun.findAndContainsText("hataMesaji","Lütfen geçerli bir kart girin.");
 
-        if(enUygun.hataMesaji.isDisplayed()){
-
-            System.out.println("Gecersiz kart bilgisi girildiği icin ödeme kabul edilmediği doğrulandı");
-
-        }else {
-            System.out.println("Hatalı işlem!");
-        }
 
         System.out.println("**************************************************");
 

@@ -12,4 +12,20 @@ EnUygun Selenium test otomasyon projesidir. EnUygun Uçak,Otobüs bileti arama, 
 - Acilan Sayfa da 'İletişim Bilgileri' ve 'Gidicek Yolcu Bilgileri' alanlari doldurulacak,
 - Alt tarafta adimda 'Ödeme Seçenekleri' alani doldurulacak ve 'Satin Al' butonuna Tiklanacak
 - En son Adimda Bilet Alim isleminin basarili yada basarisiz olduğu onaylanacak
-- 
+
+
+Hangi Teknolojiler Kullanıldı
+
+- Bu proje için java ve intellij kullanıldı.
+- Selenium Test Aracı olarak kullanıldı.
+
+
+![img_24.png](img_24.png)
+
+![img_25.png](img_25.png)
+
+![img_26.png](img_26.png)
+
+![img_27.png](img_27.png)
+
+![img_28.png](img_28.png)
